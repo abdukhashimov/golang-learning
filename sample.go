@@ -46,5 +46,6 @@ type Name struct {
 }
 
 func main() {
-	fmt.Println("Hello World")
+	var a [5]int
+	fmt.Println(a)
 }
