@@ -8,5 +8,6 @@ func main() {
 	m["one"] = 1
 	m["two"] = 2
 	fmt.Println(m)
+	// another things
 	fmt.Println("Hello World")
 }
