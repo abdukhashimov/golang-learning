@@ -36,4 +36,10 @@ func main() {
 			fmt.Println("f1 worked", r)
 		}
 	}
+
+	_, e := f2(42)
+	if ae, ok := e.(*argError); ok {
+		fmt.Println(ae.arg)
+		fmt.Println(ae.prob)
+	}
 }
